@@ -59,7 +59,7 @@ public class LoginController {
 		// Create a new instance of LoginDto
 		LoginDto loginDto = new LoginDto();
 		// loginDto.setUsername("Chirag"); // Commented out line to set a username (if needed)
-		loginDto.setPassword("5673"); // Set a dummy password for demonstration
+		//loginDto.setPassword("5673"); // Set a dummy password for demonstration
 		
 		// Return a successful response with the loginDto object
 		return ResponseEntity.ok(new GenricResponse(201, "Success", loginDto));
